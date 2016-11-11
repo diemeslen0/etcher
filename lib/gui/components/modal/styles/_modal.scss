@@ -88,6 +88,10 @@
 .modal-text {
   padding: 20px;
 
+  > p {
+    white-space: pre-line;
+  }
+
   > p:last-child {
     margin-bottom: 0;
   }
@@ -117,6 +121,7 @@
 }
 
 .modal-footer {
+  display: flex;
   flex-grow: 0;
   border: 0;
 }

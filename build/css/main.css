@@ -6267,6 +6267,8 @@ body {
 
 .modal-text {
   padding: 20px; }
+  .modal-text > p {
+    white-space: pre-line; }
   .modal-text > p:last-child {
     margin-bottom: 0; }
 
@@ -6282,6 +6284,7 @@ body {
   opacity: 0; }
 
 .modal-footer {
+  display: flex;
   flex-grow: 0;
   border: 0; }
 

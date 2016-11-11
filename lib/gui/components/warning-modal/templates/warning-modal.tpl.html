@@ -15,5 +15,7 @@
 <div class="modal-footer">
   <button class="button button-danger button-block"
     ng-click="modal.accept()">{{ ::modal.options.confirmationLabel }}</button>
+  <button ng-if="modal.options.rejectionLabel" class="button button-block"
+    ng-click="modal.reject()">{{ ::modal.options.rejectionLabel }}</button>
 </div>
 
