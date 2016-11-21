@@ -19,6 +19,13 @@
   height: 320px;
 }
 
+.list-group-item {
+
+  &[disabled] {
+    cursor: default;
+  }
+}
+
 .component-drive-selector-body {
 
   .list-group-item-footer {
